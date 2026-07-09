@@ -1,0 +1,213 @@
+.maintenance-page{
+    padding:40px;
+}
+
+.maintenance-page h1{
+    color:#23408e;
+    margin-bottom:30px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+th{
+    background:#23408e;
+    color:white;
+    padding:16px;
+}
+
+td{
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background:#f5f7fb;
+}
+.generate-btn{
+
+    background:#23408e;
+    color:white;
+    border:none;
+    padding:14px 24px;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-bottom:25px;
+
+}
+
+.generate-btn:hover{
+
+    background:#1b3272;
+
+}
+.generate-btn{
+
+    background:#23408e;
+    color:white;
+    border:none;
+    padding:14px 24px;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-bottom:25px;
+
+}
+
+.generate-btn:hover{
+
+    background:#1b3272;
+
+}
+
+.paid-btn{
+
+    background:#2e7d32;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+
+}
+
+.paid-btn:hover{
+
+    background:#1b5e20;
+
+}
+.action-buttons{
+
+    display:flex;
+    gap:10px;
+    justify-content:center;
+
+}
+
+.generate-btn{
+
+    background:#23408e;
+    color:white;
+    border:none;
+    padding:14px 24px;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-bottom:25px;
+
+}
+
+.generate-btn:hover{
+
+    background:#1b3272;
+
+}
+
+.paid-btn{
+
+    background:#2e7d32;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+
+}
+
+.paid-btn:hover{
+
+    background:#1b5e20;
+
+}
+
+.reminder-btn{
+
+    background:#ef6c00;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+
+}
+
+.reminder-btn:hover{
+
+    background:#d65a00;
+
+}
+.top-buttons{
+
+    display:flex;
+    gap:15px;
+    margin-bottom:25px;
+
+}
+
+.export-btn{
+
+    background:#1565c0;
+    color:white;
+    border:none;
+    padding:14px 24px;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+
+.export-btn:hover{
+
+    background:#0d47a1;
+
+}
+.top-buttons{
+    display:flex;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.export-btn{
+    background:#1565c0;
+    color:white;
+    border:none;
+    padding:14px 22px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.export-btn:hover{
+    background:#0d47a1;
+}
+
+.action-buttons{
+    display:flex;
+    gap:10px;
+}
+
+.reminder-btn{
+    background:#ff9800;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.reminder-btn:hover{
+    background:#f57c00;
+}

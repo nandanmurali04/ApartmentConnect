@@ -1,0 +1,157 @@
+.flats-page{
+    padding:40px;
+}
+
+.flats-page h1{
+    color:#23408e;
+    margin-bottom:30px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+th{
+    background:#23408e;
+    color:white;
+    padding:16px;
+}
+
+td{
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background:#f5f7fb;
+}
+.add-btn{
+
+    background:#23408e;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    margin-bottom:20px;
+
+}
+
+.add-btn:hover{
+
+    background:#1b3272;
+
+}
+
+.flat-form{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    background:#f8f9fc;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:30px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+
+}
+
+.flat-form input{
+
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+
+}
+
+.checkbox{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-weight:bold;
+
+}
+
+.form-buttons{
+
+    display:flex;
+    gap:10px;
+
+}
+
+.save-btn{
+
+    background:#2e7d32;
+    color:white;
+    border:none;
+    padding:12px 18px;
+    border-radius:6px;
+    cursor:pointer;
+
+}
+
+.save-btn:hover{
+
+    background:#1b5e20;
+
+}
+
+.cancel-btn{
+
+    background:#d32f2f;
+    color:white;
+    border:none;
+    padding:12px 18px;
+    border-radius:6px;
+    cursor:pointer;
+
+}
+
+.cancel-btn:hover{
+
+    background:#b71c1c;
+
+}
+.edit-btn{
+
+    background:#ff9800;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+
+}
+
+.edit-btn:hover{
+
+    background:#f57c00;
+
+}
+.delete-btn{
+
+    background:#d32f2f;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+    margin-left:10px;
+
+}
+
+.delete-btn:hover{
+
+    background:#b71c1c;
+
+}

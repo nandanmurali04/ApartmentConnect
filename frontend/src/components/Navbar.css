@@ -1,0 +1,30 @@
+.navbar{
+    background:#23408e;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.navbar h2{
+    margin:0;
+    font-size:24px;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#ffd54f;
+}
